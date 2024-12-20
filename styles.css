@@ -4,4 +4,40 @@
   --clr-white: #FFFF;
   --clr-green: #44C651;
   --clr-red: #E24040;
+  --clr-blue: #0EB5FC;
+  --clr-purple-bright: #7F41FD;
+}
+
+body {
+  font-family: "Nunito", serif;
+  background-color: var(--clr-purple-dark);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 210px;
+}
+
+.app-logo img {
+  width: 300px;
+}
+
+.main-container-title h1 {
+  color: var(--clr-white);
+}
+
+.main-container-title p {
+  color: rgb(180, 179, 179);
+}
+
+.start-button a {
+  color: var(--clr-white);
+  text-decoration: none;
+  background-image: linear-gradient(347deg, rgba(14, 181, 252, 1) 28%, rgba(127, 65, 253, 1) 67%);
+  padding: 5px 50px;
+  border-radius: 15px;
 }
