@@ -11,4 +11,39 @@
 body {
   font-family: "Nunito", serif;
   background-color: var(--clr-purple-dark);
+  display: flex;
+  justify-content: center;
+}
+
+.question-container {
+  background-color: var(--clr-purple);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  margin-top: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.question h1 {
+  color: var(--clr-white);
+}
+
+.answer {
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.answer:hover {
+  background-color: var(--clr-purple-bright);
+}
+
+.answer p {
+  color: var(--clr-white);
+  font-size: 1.25rem;
+  border: 2px solid var(--clr-white);
+  border-radius: 5px;
+  padding: 10px 180px;
 }
